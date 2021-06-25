@@ -63,17 +63,17 @@
   font-size: 14px;
   margin-top: 5px;
   cursor: pointer;
-  border: 1px solid #0099cc;
+  /* border: 1px solid #0099cc; */
 }
 .form button:hover {
-  border: 1px solid #0099cc;
+  /* border: 1px solid #0099cc; */
   background-color: #00aacc;
   color: #ffffff;
 }
 
 .form button:disabled,
 button[disabled]{
-  border: 1px solid #999999;
+  /* border: 1px solid #999999; */
   background-color: #cccccc;
   color: #666666;
 }

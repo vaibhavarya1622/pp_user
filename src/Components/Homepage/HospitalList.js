@@ -49,7 +49,6 @@ const HospitalList = (props) => {
     var d = 2 * R * Math.asin(Math.sqrt(Math.sin(difflat / 2) * Math.sin(difflat / 2) + Math.cos(rlat1) * Math.cos(rlat2) * Math.sin(difflon / 2) * Math.sin(difflon / 2)));
     return Math.round(d);
   }
-  {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (position) => {
@@ -62,7 +61,6 @@ const HospitalList = (props) => {
         }
       )
     }
-  }
   const updateHospital = (e) => {
     setOpen(true)
     const key = e.target.value;
