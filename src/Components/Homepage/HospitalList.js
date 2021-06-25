@@ -193,7 +193,7 @@ const HospitalList = (props) => {
         <DropdownToggle caret style={{ backgroundColor: "white", color: "black", marginTop: "10px", marginBottom: "15px", marginLeft: "15px" }}>
           {null}
         </DropdownToggle>
-        <DropdownMenu className="dropdown-menu" positionFixed={true}>
+        <DropdownMenu className="dropdownhl-menu" positionFixed={true}>
           <div>
             <div style={{ textAlign: "center", color: '#FF024E' }}>
               <p>Hospitals List

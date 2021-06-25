@@ -18,9 +18,9 @@
 .dropdown-span {
     cursor: pointer;
 }
-.dropdown-menu {
-    height: 400px;
-    width:300px;
+.dropdownhl-menu {
+    height: 400px !important;
+    width:300px !important;
     overflow: scroll;
 }
 
